@@ -24,7 +24,7 @@ list.QAny();
 ```
 Any item starts with 't'?
 ```
-list.QAny(i => !i.code.startsWith('t'));
+list.QAny(i => i.code.startsWith('t'));
 //> true
 ```
 
