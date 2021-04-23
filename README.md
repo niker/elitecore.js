@@ -1,8 +1,8 @@
 # elitecore.js
-Hair-retaining helper libraries for C# developers delving into javascript.
+Hair-retaining helper libraries for C# developers delving into modern javascript.
 
 # LINQ for JavaScript
-Most used LINQ-like commands at your fingertips. 
+Most used LINQ-like commands at your fingertips. It's not lazy-evaluated so you don't need ToList().
 Works fine with VUE3.
 
 ## Import
