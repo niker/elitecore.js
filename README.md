@@ -2,15 +2,19 @@
 Hair-retaining helper libraries for C# developers delving into javascript.
 
 # LINQ for JavaScript
-Most used LINQ-like commands at your fingertips. Works fine with VUE3.
+Most used LINQ-like commands at your fingertips. 
+Works fine with VUE3.
 
 ## Import
-// import the library, it will inject into arrays globally.
+Import or include the library, it will inject into arrays globally.
+```
 import './elitecore/elitecore-linq';
-
-const list = [{id: 1, code: 'test1'}, {id: 2, code: 'test2'}, {id: 3, code: 'another3'}, {id: 4, code: 'another4'}];
-
+```
 ## Usage
+```
+const list = [{id: 1, code: 'test1'}, {id: 2, code: 'test2'}, {id: 3, code: 'another3'}, {id: 4, code: 'another4'}];
+```
+
 ```
 const isThereAnyItem = list.QAny();
 //> true
