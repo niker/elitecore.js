@@ -210,3 +210,22 @@ Extracts a name from function pointer at runtime to allow rename refactoring.
 myFunction.NameOf();
 //> 'myFunction'
 ```
+
+# Crypto utils for JavaScript
+Most used Crypto commands at your fingertips. 
+Works fine with VUE3.
+
+## Import
+Import or include the library, it will inject into arrays globally.
+```
+import './elitecore/elitecore-crypto';
+```
+## Usage
+#### Crypto.RandomInt
+Create a cryptographically-strong random number.
+```
+const list = ['a','b','c'];
+const rndIndex = Crypto.RandomInt(0, list.length - 1);
+list[rndIndex];
+//> I'm no oracle...
+```
