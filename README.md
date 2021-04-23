@@ -185,6 +185,7 @@ Starts with that supports case insensitivity switch. Default is case sensitive.
 
 #### String.TryParse
 Parses arbitrary string into many supported types (string, int, long, float, decimal, double, guid, timestamp, date, datetime). Any number but int parses to Number, long is floored.
+Returns null if parsing fails.
 ```
 String.TryParse('int', '1337.5');
 //> 1337
