@@ -195,6 +195,9 @@ String.TryParse('decimal', '1337.5');
 
 String.TryParse('guid', '5de4f0e3dcd44cd5a3df5990f7156b55');
 //> '5de4f0e3-dcd4-4cd5-a3df-5990f7156b55'
+
+String.TryParse('guid', '55e3');
+//> null
 ```
 Parses many of US/EU DateTime formats into a timestamp. Not perfect worldwide but good enough for parsing date pickers.
 ```
