@@ -92,7 +92,7 @@ Most used C#-like commands at your fingertips.
 Works fine with VUE3.
 
 ## Import
-Import or include the library, it will inject into arrays globally.
+Import or include the library, it will inject into global context.
 ```
 import './elitecore/elitecore-string';
 ```
@@ -216,7 +216,7 @@ Most used Crypto commands at your fingertips.
 Works fine with VUE3.
 
 ## Import
-Import or include the library, it will inject into arrays globally.
+Import or include the library, it will inject into global context.
 ```
 import './elitecore/elitecore-crypto';
 ```
