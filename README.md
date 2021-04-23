@@ -118,7 +118,7 @@ Returns *true* if string is null, undefined or empty.
 String.IsNullOrEmpty('');
 //> true
 
-String.IsNull(' ');
+String.IsNullOrEmpty(' ');
 //> false
 ```
 
