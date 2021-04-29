@@ -233,3 +233,20 @@ const rndIndex = Crypto.RandomInt(0, list.length - 1);
 list[rndIndex];
 //> I'm no oracle...
 ```
+
+# Async utils for JavaScript
+Most used async Task commands at your fingertips. 
+Works fine with VUE3.
+
+## Import
+Import or include the library, it will inject into global context.
+```
+import './elitecore/elitecore-async';
+```
+## Usage
+#### Promise.Delay
+Wait for a delay asynchronously.
+```
+await Promise.Delay(1000);
+//> waits for 1 second
+```
